@@ -22,35 +22,36 @@ This project is dedicated to implementing Authentication using various strategie
 
 Follow these steps to set up the project locally:
 
-1. **Fork the Project Repo: **
-   Fork the project repository from GitHub to your account.
+1. **Fork the Project Repo**
 
-2. **Clone the Project: **
-   Clone the forked repository to your local machine:
+   - Fork the project repository from GitHub to your account.
 
-   ```
-   git clone https://github.com/your-username/auth-web-app.git
-   ```
+2. **Clone the Project**
 
-3. **Navigate to the Project Directory: **
-   Change your current directory to the project directory:
+   - Clone the forked repository to your local machine:
+     ```
+     git clone https://github.com/your-username/auth-web-app.git
+     ```
 
-   ```
-   cd auth-web-app
-   ```
+3. **Navigate to the Project Directory**
 
-4. **Install Dependencies: **
-   Install all the project dependencies using npm:
+   - Change your current directory to the project directory:
+     ```
+     cd auth-web-app
+     ```
 
-   ```
-   npm install
-   ```
+4. **Install Dependencies**
 
-5. **Run the Project Locally: **
-   Start the development server to run the project locally:
-   ```
-   npm run dev
-   ```
+   - Install all the project dependencies using npm:
+     ```
+     npm install
+     ```
+
+5. **Run the Project Locally**
+   - Start the development server to run the project locally:
+     ```
+     npm run dev
+     ```
 
 ## Implementation Details
 
