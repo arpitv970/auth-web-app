@@ -7,7 +7,7 @@ This project is dedicated to implementing Authentication using various strategie
   - `Google`
   - `GitHub`
 
-## Tech Stack
+# Tech Stack
 
 | Technology         | Description     |
 | ------------------ | --------------- |
@@ -18,7 +18,7 @@ This project is dedicated to implementing Authentication using various strategie
 | **Authentication** | Auth.js         |
 | **Email Service**  | Resend          |
 
-## Local Setup
+# Local Setup
 
 Follow these steps to set up the project locally:
 
@@ -53,21 +53,25 @@ Follow these steps to set up the project locally:
      npm run dev
      ```
 
-## Implementation Details
+# Implementation Details
 
-### Authentication Strategies
+## Authentication Strategies
 
-#### User Email & Password
+### User Email & Password
 
 This strategy involves users signing in using their email addresses and passwords. We utilize Auth.js to handle authentication securely.
 
-#### OAuth for Social Media Providers
+### O-Auth for Social Media Providers
 
-We support OAuth authentication for two popular social media platforms:
+We support O-Auth authentication for two popular social media platforms:
 
 - `Google`
 - `GitHub`
 
-### React Server Component
+## React Server Component
 
 We utilize the `React Server Component` provided by `Next.js 14` for efficient `server-side rendering` of React components.
+
+# Deployment
+
+This project is deployed at `Vercel`, click [here](https://auth-web-app-xi.vercel.app) to use the live Web Application
