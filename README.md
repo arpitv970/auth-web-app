@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Auth Web App - Next.js 14
 
-## Getting Started
+This project is dedicated to implementing Authentication using various strategies by leveraging the power combo of Next.js 14 & Auth.js. We aim to provide seamless user authentication experiences through the following strategies:
 
-First, run the development server:
+- User `Email` & `Password`
+- O-Auth for Social Media providers:
+  - `Google`
+  - `GitHub`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Technology         | Description     |
+| ------------------ | --------------- |
+| **Frontend**       | React / Next.js |
+| **Backend**        | Next.js         |
+| **UI**             | Shadcn UI       |
+| **Styling**        | Tailwind CSS    |
+| **Authentication** | Auth.js         |
+| **Email Service**  | Resend          |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Follow these steps to set up the project locally:
 
-## Learn More
+1. **Fork the Project Repo**
 
-To learn more about Next.js, take a look at the following resources:
+   - Fork the project repository from GitHub to your account.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Clone the Project**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - Clone the forked repository to your local machine:
+     ```
+     git clone https://github.com/your-username/auth-web-app.git
+     ```
 
-## Deploy on Vercel
+3. **Navigate to the Project Directory**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Change your current directory to the project directory:
+     ```
+     cd auth-web-app
+     ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Install Dependencies**
+
+   - Install all the project dependencies using npm:
+     ```
+     npm install
+     ```
+
+5. **Run the Project Locally**
+   - Start the development server to run the project locally:
+     ```
+     npm run dev
+     ```
+
+## Implementation Details
+
+### Authentication Strategies
+
+#### User Email & Password
+
+This strategy involves users signing in using their email addresses and passwords. We utilize Auth.js to handle authentication securely.
+
+#### OAuth for Social Media Providers
+
+We support OAuth authentication for two popular social media platforms:
+
+- `Google`
+- `GitHub`
+
+### React Server Component
+
+We utilize the `React Server Component` provided by `Next.js 14` for efficient `server-side rendering` of React components.
